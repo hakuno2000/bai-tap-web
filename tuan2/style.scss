@@ -1,0 +1,38 @@
+body {
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+
+
+.container {
+    width: 400px;
+    height: 600px;
+
+    background-color: lightblue;
+    .content {
+        width: 350px;
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            line-height: 30px;
+            .text {
+            }
+            .inp {
+                width: 200px;
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        .btn {
+            
+        }
+    }
+}
